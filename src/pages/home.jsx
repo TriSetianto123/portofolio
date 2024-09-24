@@ -97,6 +97,7 @@ const Home = ()=> {
                 window.removeEventListener('scroll', handleScroll);
             };
         }, []);
+        console.log("dasadasdada");
         
     return (
         <>
