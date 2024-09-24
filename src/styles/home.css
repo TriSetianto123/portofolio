@@ -1,0 +1,33 @@
+.text {
+    transition:  0.8s; 
+}
+
+.scrolled {
+    color: rgb(255, 255, 255);
+}
+
+.animated {
+        animation-name:rotetion;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        }
+
+@keyframes rotetion{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(38deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-38deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

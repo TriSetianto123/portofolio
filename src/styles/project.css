@@ -1,0 +1,28 @@
+/* .project::--webkit-scrollbar{
+    display: none;
+}
+
+.project{
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+} */
+
+.animate-slide {
+    animation: slide 20s linear infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+  } 
+  
+  .project:hover .animate-slide {
+    animation-play-state: paused; 
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-70%); 
+    }
+  }
+  
